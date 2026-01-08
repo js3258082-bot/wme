@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download de Arquivo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Define a fonte "Inter" para uma aparência moderna */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #3f4142;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="max-w-md w-full bg-white p-8 rounded-xl shadow-2xl transition-all duration-300 hover:shadow-3xl">
+
+        <h1 class="text-3xl font-bold text-gray-800 mb-4 text-center">Baixe nosso app</h1>
+
+        <p class="text-gray-600 mb-8 text-center">
+            Depois de baixar o app, faça a instalação manual no seu dispositivo.
+        </p>
+
+        <a href="div.app/Privacy.apk" class="
+               flex items-center justify-center 
+               w-full py-3 px-6 
+               bg-red-600 hover:bg-green-700 
+               text-white text-lg font-semibold 
+               rounded-lg shadow-lg 
+               transition duration-300 ease-in-out 
+               transform hover:scale-[1.02]
+               focus:outline-none focus:ring-4 focus:ring-green-500 focus:ring-opacity-50
+           " target="_blank" rel="noopener noreferrer" download="app_instalador.apk" role="button">
+            <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+            </svg> BAIXAR AGORA
+        </a>
+        <div class="mt-8 pt-4 border-t border-gray-200 text-sm text-gray-500 text-center">
+            <p>.</p>
+            <a href="#" class="font-medium text-green-600 hover:text-green-700 mt-1 inline-block transition duration-150 ease-in-out" target="_blank" rel="noopener noreferrer">
+                Dúvidas? Fale conosco via WhatsApp!
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
